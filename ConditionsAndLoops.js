@@ -24,18 +24,20 @@ if (mySpeed > speedLimit) {
 // create two variables, one named alarmSet, the other openDoor
 // set them to a boolean value
 
-let AlarmSet = true;
-let OpenDoor = false;
+let alarmSet = true;
+let openDoor = false;
 
 
 // using a conditional, determine if alarm is set.
-if (AlarmSet == true && OpenDoor == false) {
+if (alarmSet && openDoor) {
+    // if alarm is set and door is set to open, print "Sound Alarm!" to the console
     console.log("Sound Alarm!")
 } else {
+    // otherwise, print "Everything is fine." to the console.
     console.log('Everything is fine.')
 }
-// if alarm is set and door is set to open, print "Sound Alarm!" to the console
-// otherwise, print "Everything is fine." to the console.
+
+
 
 
 
